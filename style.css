@@ -1,0 +1,165 @@
+ /* #top{
+    position: fixed;
+    z-index: 1;
+}     */
+#about, #donation{
+    width: 90px;
+}
+#saylaniservices,  #futureproject{
+    width: 140px;
+}
+#saylaniservices,  #futureproject, #about, #donation{
+    background-color: gainsboro;
+    border-radius: 10px;
+    
+}
+.anchor{
+    background-color: gainsboro;
+    border-radius: 10px;
+    color: black;
+     margin: 2px;
+ }
+@media only screen and (min-width:600px){
+    #slide{
+        height: 100%;
+        width:101%;
+    }
+}
+@media only screen and (max-width:600px){
+    #slide{
+        height: 100%;
+        width:101%;
+    }
+}
+@media only screen and (max-width:768px){
+    #slide{
+        height: 100%;
+        width:101%;
+    }
+}
+@media only screen and (max-width:992px){
+    #slide{        
+        height: 100%;
+        width:101%;
+    }
+}
+@media only screen and (max-width:1200px){
+    #slide{
+        height: 100%;
+        width:101%;
+    }
+}
+.icon{
+    width: 80px;
+    height: 70px;
+}
+.monthly{
+    color: chartreuse;
+}
+#mission{
+    text-align: center;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+#missionmain{
+    height: 500px;
+}
+.submission{
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    background-color: wheat;
+    box-shadow: 5px 5px 5px #8CC740;
+
+}
+.missionicon{
+    height: 40px;
+    width: 40px;
+    position: relative;
+}
+#missionmain1{
+display: flex;
+justify-content: space-around;
+margin: 20px;
+}
+#missionmain2{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+#upcomingevents{
+    display: flex;
+    justify-content: space-between;
+}
+.upcoming1{
+    color: blue;
+    font-style: italic;
+    text-decoration: double underline;
+}
+.upcoming2{
+    color: blue;
+    font-style: italic;
+    text-decoration: double underline;
+}
+#upcomingevents1{
+    width: 60%;
+    text-align: center;
+}
+#upcomingevents2{
+    width: 30%;
+}
+#hpit1{
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    color: blue;
+    margin-left: 50px;
+}
+
+#hpit2{
+    
+    color: blue;
+    font-size: xx-large;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+.hp{
+    background-color: gainsboro;
+    width: 200px;
+    margin: 30px;
+    box-shadow:-10px 10px 10px darkgray;
+}
+.it{
+    background-color:gainsboro;
+    width: 200px;
+    margin: 30px;
+    box-shadow:-10px 10px 10px darkgray;
+}
+.h11{
+    color: #8CC740;
+}
+.h12{
+    color: #0066B2;
+}
+#imagegallery{
+    text-align: center;
+
+}
+.image{
+    width: 230px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+#scroll{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    z-index: 1;
+}
+#size{
+    font-size: x-large;
+}
